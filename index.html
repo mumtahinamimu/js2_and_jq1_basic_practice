@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- CSS link -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <title>js_basic</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="text-info">Click the button to repeat the text.</h1>
+      <button type="button" class="btn btn-primary" onclick="textChange()">click me</button>
+      <h2 id="h2" class="h2">Lorem ipsum dolor sit.</h2>
+    </div> 
+    <hr>
+  <div class="container">
+    <h1 class="text-info">Click the button to change the image.</h1>
+    <button type="button" class="btn btn-primary" onclick="imgChangeOne()">button1</button>
+    <button type="button" class="btn btn-secondary" onclick="imgChangeTwo()">button2</button>
+    <br><br>
+    <img id="img" src="img/client_one.png" class="img-fluid" alt="">
+  </div>
+  <hr>
+  <div class="container">
+    <h1 class="text-info">Click the button to show the alert.</h1>
+    <button type="button" class="btn btn-primary" onclick="customAlert()">click me</button>
+  </div>
+  <hr>
+  <div class="container">
+    <h1 class="text-info">Click the button to show the window alert.</h1>
+    <button type="button" class="btn btn-secondary" onclick="windowAlert()">click me</button>
+  </div>
+  <hr>
+  <div class="container">
+    <h1 class="text-info">Click the button to show the text in new page.</h1>
+    <button type="button" class="btn btn-success" onclick="documentChange()">click me</button>
+  </div>
+  <hr>
+  <div class="container">
+    <h1 class="text-info">Click the button to show consol text.</h1>
+    <button type="button" class="btn btn-primary" onclick="consolChange()">click me</button>
+  </div>
+  <hr>
+  <div class="container">
+    <h1 class="text-info">array passing in the cons</h1>
+    <h2 id="student"></h2>
+  </div>
+  <hr>
+  <div class="container">
+    <h1 class="text-info">Click the button to show the alert messege by jquiry.</h1>
+    <button type="button" class="btn btn-success btn_jq_al">click me</button>
+  </div>
+  <hr>
+  <div class="container">
+    <h1 class="text-info">Click the button to show/ hide/toggle the image.</h1>
+    <button type="button" class="btn btn-secondary btn_jq_hide">hide</button>
+    <button type="button" class="btn btn-danger btn_jq_show">show</button>
+    <button type="button" class="btn btn-dark btn_jq_toggle">toggle</button>
+    <br> <br>
+    <img src="img/client_two.png" class="img_hide" alt="">
+  </div>
+  <hr>
+  <div class="container">
+    <h1 class="text-info">Click the button toggle with animation the image.</h1>
+    <button type="button" class="btn btn-secondary btn_jq_fast">toggle fast</button>
+    <button type="button" class="btn btn-danger btn_jq_slow">toggle slow</button>
+    <button type="button" class="btn btn-dark btn_jq_milisec">toggle milisec</button>
+    <br> <br>
+    <img src="img/client_one.png" class="img_trans" alt="">
+  </div>
+  <hr>
+  <div class="container">
+    <h1 class="text-info">Click the button fade effect with animation the image.</h1>
+    <button type="button" id="btn_jq_fadeout" class="btn btn-secondary">Fadeout</button>
+    <button type="button" id="btn_jq_fadein" class="btn btn-danger">FadeIn</button>
+    <button type="button" id="btn_jq_fadetoggle" class="btn btn-dark">FadeToggle</button>
+    <button type="button" id="btn_jq_fadeto" class="btn btn-primary">FadeTo</button>
+    <br> <br>
+    <img src="img/renovation.jpg" class="img_fade" alt="">
+
+    <br><br>
+  </div>
+  <hr>
+  <div class="container">
+    <div class="bg1">
+      Lorem ipsum dolor sit amet consectetur.
+    </div>
+    <div class="bg2">
+      <p class="ans">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur dignissimos corporis unde vel ex natus, sit nesciunt accusantium soluta, dolore voluptatibus architecto perspiciatis! Voluptatum officia veniam dolor, accusamus, nihil voluptate, et dolorem inventore est cumque vitae eius unde possimus tempora autem culpa architecto velit neque nostrum optio doloremque quas? Quae!</p>
+    </div>
+  </div>
+  <hr>
+  <div class="container">
+  <h1>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis fuga repudiandae necessitatibus minima, maiores voluptates. Porro, accusantium. Maxime, qui perspiciatis, quaerat sunt sed obcaecati tempora nemo provident voluptas natus consequatur?</h1>
+</div>
+<hr>
+    <!-- JS link -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

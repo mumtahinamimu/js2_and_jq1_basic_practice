@@ -1,0 +1,14 @@
+.bg1{
+  padding: 20px;
+  background-color: cornflowerblue;
+  cursor: pointer;
+}
+
+.bg2{
+  padding: 20px;
+  background-color: darkorange;
+}
+
+.text-info{
+  margin-top: 50px;
+}
